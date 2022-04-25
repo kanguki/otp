@@ -1,3 +1,7 @@
+# Status
+
+Not ready for production yet 
+
 # What?
 
 A module which you can plug in your http request to force your json request come with otp verification
@@ -48,3 +52,9 @@ Run tests
 ```
 ./test.sh
 ```
+
+# TODO
+
+###### Invalidate cipher otp after verification.
+
+This might involves some place to save. But my intention is making it as dependent as possible from external network calls. Hmmmmmm. Might come back when I have time :D
